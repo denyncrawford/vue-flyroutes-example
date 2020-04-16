@@ -1,6 +1,6 @@
 
 import Vue from 'vue'
-import VueFlyRoutes from './index'
+import VueFlyRoutes from 'vue-flyroutes'
 import {pageTransition, contentAnimation} from './transitions'
 import {delay} from './transitions/helpers.js'
 
