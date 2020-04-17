@@ -15,6 +15,9 @@ Vue.use(VueFlyRoutes, {
       enter(data) {
         contentAnimation(.29);
       },
+      once(data) {
+        contentAnimation(0);
+      }
     }
   ]
 })
